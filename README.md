@@ -29,7 +29,7 @@ Desenvolver um sistema simples de e-commerce executado pelo terminal, permitindo
 
 ```text
 MiniEcommerce/
-├── MiniEcommerce.sln
+├── MiniEcommerce.slnx
 ├── MiniEcommerce.Console/
 │   ├── Program.cs
 │   ├── Entidades/
