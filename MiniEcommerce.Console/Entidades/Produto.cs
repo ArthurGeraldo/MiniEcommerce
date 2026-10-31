@@ -1,3 +1,4 @@
+
 namespace MiniEcommerce.Console.Entidades;
 
 public class Produto
@@ -20,5 +21,16 @@ public class Produto
         Nome = nome;
         Preco = preco;
         Estoque = estoque;
+    }
+
+    public void BaixarEstoque(int quantidade)
+    {
+        if (quantidade <= 0)
+            throw new ArgumentException("Quantidade inválida.");
+
+        if (quantidade > Estoque)
+            throw new InvalidOperationException("Estoque insuficiente.");
+
+        Estoque -= quantidade;
     }
 }
