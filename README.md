@@ -67,4 +67,5 @@ O projeto utiliza xUnit para verificar as regras de negócio, incluindo validaç
 
 ## Autor
 
-Arthur Geraldo
+Arthur Geraldo Santos Silva
+RA: 4251924719
